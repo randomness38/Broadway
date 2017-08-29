@@ -1,0 +1,62 @@
+html{
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.bar{
+
+  color: white;
+
+}
+
+#menu_bar{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  /* id menu_bar는 div에 저장된 아이디야
+  그니까 디브 영역 만큼 이미지 커버해서 늘어난다는 뜻*/
+  background-size: cover;
+  font-weight: bold;
+  font-size: 70px;
+
+}
+#middle_bar{
+  font-size: 23px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  color: white;
+}
+
+ul{
+  line-height: 20px;
+  padding-top: 50px;
+  margin-top: -120px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+
+h4{
+  text-align: left;
+  background-color: dimgray;
+  font-size: 20px;
+  color: white;
+}
+
+#footer_effect{
+  font-size: 11px;
+
+}
