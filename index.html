@@ -4,17 +4,28 @@
   <head>
     <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
     <title>Broadway</title>
+    <!--링크 클릭할 때 생기는 모든 변화 설정해주기
+    a:link = 클릭 전
+    a:visited = 클릭 후
+    a:hover = 마우스 오버 -->
+    <style type="text/css">
+      a:link { color: white; text-decoration: none;}
+      a:visited { color: white; text-decoration: none;}
+      a:hover { color: yellow; text-decoration: underline;}
+    </style>
   </head>
   <body>
     <div id = "menu_bar" class="bar">
     <h1 id = "title">Broadway Design</h1>
     <nav>
       <ul>
-        <li a href="#Home">Home</a></li>
-        <li a href="#Process">Process</a></li>
-        <li a href="#Work">Work</a></li>
-        <li a href="#Team">Team</a></li>
-        <li a href="#Contact">Contact</a></li>
+        <!-- <li><a href="#ANCHOR">Your Text</a></li>
+      <type id ="ANCHOR"> </type> <li><a ~~ ></a></li> 포맷 조심 ** -->
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Process">Process</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Team">Team</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
       </nav>
     </div>

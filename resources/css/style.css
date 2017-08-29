@@ -4,16 +4,15 @@ html{
 }
 
 .bar{
-
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   color: white;
-
+  background-size: cover;
 }
 
 #menu_bar{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   /* id menu_bar는 div에 저장된 아이디야
-  그니까 디브 영역 만큼 이미지 커버해서 늘어난다는 뜻*/
-  background-size: cover;
+  그니까 디브 영역 만큼 이미지 커버해서 늘어난다는 뜻
+  background-size: cover;*/
   font-weight: bold;
   font-size: 70px;
 
